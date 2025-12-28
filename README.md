@@ -24,3 +24,17 @@ You can install the required dependencies using pip:
 ```bash
 pip install opencv-python ultralytics
 ```
+## Usage
+**Place the Model:** Ensure the best.pt file is located in the same directory as detect_faults.py.
+
+**Run the Script:** Execute the Python script to start the webcam feed and detection:
+
+```Bash
+
+python detect_faults.py
+```
+## Operation:
+
+The script will open a window titled "Manufacturing Fault Detection" showing the live feed with bounding boxes around detected defects.
+
+Press the q key to exit the application.
